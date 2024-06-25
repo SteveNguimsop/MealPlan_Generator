@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #61dafb;
+  padding: 20px;
+  color: white;
+}
+
+.step {
+  margin: 20px;
+}
+
+.diet-options {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.diet-options button {
+  margin: 0 5px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.diet-options .selected {
+  background-color: #61dafb;
+  color: white;
+}
+
+.generated-meal-plan {
+  margin-top: 20px;
+}
+
+.generated-meal-plan .meal-plan-content {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+.warning {
+  color: red;
+  font-weight: bold;
+}
